@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Genesis Boilerplate</title>
+        <title>Frontend Mentor | E-commerce product page</title>
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />

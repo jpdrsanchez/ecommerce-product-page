@@ -5,6 +5,13 @@ const GlobalStyles = createGlobalStyle`
 
   ${reset}
 
+  :root {
+    /* Typography */
+    --mainFont: 'Kumbh Sans', sans-serif;
+
+    /* Colors */
+  }
+
   html {
     box-sizing: border-box;
     font-size: 100%;
@@ -17,9 +24,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    min-height: 100vh;
-    background: #ebf8ff;
+    font-family: var(--mainFont);
   }
 `
 
