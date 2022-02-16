@@ -10,6 +10,11 @@ const GlobalStyles = createGlobalStyle`
     --mainFont: 'Kumbh Sans', sans-serif;
 
     /* Colors */
+    --black: #1d2026;
+    --gray: #69707d;
+    --orange: #ff7e1b;
+    --orange-2: #ffab6a;
+    --orange-3: #ffeee2;
   }
 
   html {
@@ -25,6 +30,11 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     font-family: var(--mainFont);
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
   }
 `
 
